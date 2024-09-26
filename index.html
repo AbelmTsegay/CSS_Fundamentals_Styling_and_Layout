@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required> <br>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required> <br> 
+        <br>
+
+        <fieldset>
+            <legend>Gender: </legend>
+            <label><input type="radio" name="Gender" value="male" required>Male</label>
+            <label><input type="radio" name="Gender" value="female">Female </label>
+            <label> <input type="radio" name="Gender" value="other">Other</label>
+        </fieldset><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <br>
+
+        <label><input type="checkbox" name="terms" required>I agree for this company to take all my rights.</label>
+        <Br>
+        <label><input type="checkbox" name="newsletter">Subcribe to our newsletter that we are going to spam.</label>
+        <br>
+
+        <input type="submit">  </input>
+        
+        <input type="reset">  </input>
+
+        <footer class="footer">
+            <p>Heres an example of trying to use a footer in this assignment.</p>
+        </footer>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(82, 70, 70);
+    margin: auto;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 21px;
+    
+    
+}
+
+form{
+    background-color: rgb(240, 228, 210);
+    padding: 19px;
+    border-radius: 10px;
+    width: 400px;
+    margin:  auto;
+}
+
+input[type = "text"] [type="email"] [type="password"]{
+   width: 100%;
+   padding: 10px;
+   margin: 5px 0;
+   border: 1px solid;
+   border-radius: 3px;
+   box-sizing: border-box;
+}
+input[type = "submit"]{
+    display:inline-block;
+    width: 45%;
+    background-color: rgb(243, 32, 32);
+    color: rgb(255, 255, 255);
+    padding: 19px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+input[type = "reset"]{
+    display: inline-block;
+    width: 45%;
+    background-color: rgb(243, 32, 32);
+    color: rgb(255, 255, 255);
+    padding: 19px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+form label{
+    display: block;
+    margin-bottom: 1px;
+    color: rgb(10, 10, 10);
+    padding: 3px;
+    margin: auto;
+   
+
+}
+
+
+
+footer{
+    font-size:x-small;
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;}   
+input[type="reset"]:hover {
+    background-color: #45a049;}
